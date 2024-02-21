@@ -1,5 +1,6 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import AppLogo from "../components/AppLogo";
 
 export default function WelcomeScreen() {
   return (
@@ -20,12 +21,9 @@ export default function WelcomeScreen() {
         }}
       >
         <Text style={{ fontWeight: "500", fontSize: 24 }}>Self Care</Text>
-        <Image
-          source={require("../assets/logo-medecine.png")}
-          style={{ height: 90, width: 90 }}
-        />
+        <AppLogo width={90} />
       </View>
-      <Text style={{ fontWeight: "300" }}>Loading...</Text>
+      <Text style={styles.text}>Loading...</Text>
     </View>
   );
 }
@@ -33,5 +31,8 @@ export default function WelcomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  text: {
+    fontWeight: "300",
   },
 });
