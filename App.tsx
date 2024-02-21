@@ -1,9 +1,9 @@
 import { useDeviceOrientation } from "@react-native-community/hooks";
-import WelcomeScreen from "./screens/WelcomeScreen";
-import GetStartedScreen from "./screens/GetStartedScreen";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
+import GetStartedScreen from "./app/screens/GetStartedScreen";
 
 export default function App() {
   const orientation = useDeviceOrientation();
 
-  return <WelcomeScreen />;
+  return <GetStartedScreen />;
 }
