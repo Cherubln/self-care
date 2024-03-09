@@ -1,8 +1,6 @@
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cherubln&show_icons=true&theme=transparent)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cherubln&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats) -->
 
-[![Deployment-status]][Deployment-url]
-
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -45,9 +43,10 @@ Self-care is an app that connects patients and doctors easily. Patients can find
 
 Here is the list of major frameworks/libraries I used to bootstrap this project.
 
-- [![Vite]][Vite-url] [![React][React.js]][React-url]
-- [![Axios][axios]][Axios-url] [![Chakra-ui]][Chakra-ui-url]
-- [![TypeScript]][TypeScript-url] [![React-icons]][React-icons-url]
+- [![expo]][expo-url]
+- [![React-native][React-native]][React-native-url]
+- [![TypeScript]][TypeScript-url]
+
 
 <p align="right">(<a href="#readme-top">&#x1F51D;</a>)</p>
 
@@ -73,18 +72,13 @@ This is the list of things you need to use the software and how to install them.
 
 ### Installation
 
-1. Get a free API Key at [https://api.rawg.io/docs/](https://api.rawg.io/docs/)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/Cherubln/game-portal.git
+   git clone git@github.com:Cherubln/self-care.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
-   ```
-4. Enter your API in `.env` at root directory
-   ```sh
-   VITE_API_KEY ="ENTER YOUR API"
    ```
 
 <p align="right">(<a href="#readme-top">&#x1F51D;</a>)</p>
@@ -95,7 +89,7 @@ This is the list of things you need to use the software and how to install them.
 
 Here are features to be added.
 
-- [] Add specific game page
+- [] Add chatting feature
 
 <p align="right">(<a href="#readme-top">&#x1F51D;</a>)</p>
 
@@ -128,7 +122,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Cherubin Ndikubwayo - [@Cherubln](https://twitter.com/Cherubln) - cherubinkubwayo@gmail.com
 
-Project Link: [https://github.com/Cherubln/game-portal](https://github.com/Cherubln/game-portal)
+Project Link: [https://github.com/Cherubln/self-care](https://github.com/Cherubln/self-care)
 
 <p align="right" >(<a href="#readme-top">&#x1F51D;</a>)</p>
 
@@ -138,14 +132,18 @@ Project Link: [https://github.com/Cherubln/game-portal](https://github.com/Cheru
 
 List of some resources I find helpful and would like to give credit to!
 
-- [GitHub Pages](https://pages.github.com)
+- [Expo](https://expo.dev/)
 
 <p align="right">(<a href="#readme-top">&#x1F51D;</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-native]: https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-native-url]: [https://reactjs.org/](https://reactnative.dev/)
 [React-url]: https://reactjs.org/
+[expo]: https://img.shields.io/badge/expo-000020?style=for-the-badge&logo=expo
+[expo-url]: https://expo.dev/ 
 [axios]: https://img.shields.io/badge/axios-20232A?style=for-the-badge&logo=Axios&logoColor=5A29E4
 [Axios-url]: https://axios-http.com/
 [React-icons]: https://img.shields.io/badge/react_icons-20232A?style=for-the-badge&logo=react&logoColor=red
